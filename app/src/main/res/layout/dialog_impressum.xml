@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minWidth="300dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MyActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Impressum"
+        android:id="@+id/textView15"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/green" />
+
+    <ImageView
+        android:id="@+id/fhglogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fhglogo" />
+
+
+    <Button
+        android:id="@+id/return_Main"
+        android:background="@drawable/bt_green"
+        android:textColor="@color/tx_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zurück"
+        android:layout_gravity="right" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/impressum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Impressum"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </ScrollView>
+
+</LinearLayout>

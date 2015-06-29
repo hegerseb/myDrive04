@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">myDrive</string>
+    <string name="default_pipeline">
+                {"@type":"edu.mit.media.funf.pipeline.BasicPipeline",
+                 "name":"default",
+                 "version":1,
+                 "data":[
+                        "edu.mit.media.funf.probe.builtin.LocationProbe"
+                 ]
+                 }
+            </string>
+    <string name="action_settings">Settings</string>
+    <string name="tracking_description"></string>
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="selectcar">Bitte wählen Sie den Hersteller Ihres Fahrzeugs aus:</string>
+    <string name="numberofdriver">Wie viele Fahrer fahren mit diesem Fahrzeug?</string>
+    <string name="numberofkilometers">Wie viele Kilometer fährt das Fahrzeug im Jahr?</string>
+    <string name="numberofdriving">Wie häufig fahren Sie mit diesem Fahrzeug?</string>
+    <string name="contextofdriving">In welchem Kontext fahren Sie das Fahrzeug am häufigsten?</string>
+    <string name="costsofdriving">Wer übernimmt die entstehenden Kosten des Fahrzeugs?</string>
+    <string name="costsrelevance">Wie wichtig sind Ihnen die Kosten, die durch Ihre Fahrweise entstehen?</string>
+    <string name="environmentalrelevance">Wie wichtig ist Ihnen der Umweltschutz?</string>
+    <string name="socialrelevance">Wie wichtig ist Ihnen Ihr Verbrauch im Vergleich zu anderen Fahrern?</string>
+    <string name="age">Bitte geben Sie Ihr Alter ein:</string>
+    <string name="gender">Bitte geben Sie Ihr Geschlecht an:</string>
+    <string-array name="drawer_list">
+        <item>myDrive</item>
+        <item>Impressum</item>
+    </string-array>
+    <string-array name="genderarray">
+        <item>Bitte auswählen</item>
+        <item>männlich</item>
+        <item>weiblich</item>
+    </string-array>
+    <string-array name="relevance">
+        <item>Bitte auswählen</item>
+        <item>1 - sehr unwichtig</item>
+        <item>2 - unwichtig</item>
+        <item>3 - neutral</item>
+        <item>4 - wichtig</item>
+        <item>5 - sehr wichtig</item>
+    </string-array>
+    <string-array name="contextarray">
+        <item>Bitte auswählen</item>
+        <item>privat</item>
+        <item>geschäftlich</item>
+    </string-array>
+    <string-array name="costsarray">
+        <item>Bitte auswählen</item>
+        <item>Ich</item>
+        <item>Fahrzeughalter (dritte Person)</item>
+        <item>Arbeitgeber</item>
+    </string-array>
+    <string-array name="numberstofive">
+        <item>Bitte auswählen</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>>5</item>
+    </string-array>
+    <string-array name="kilometer">
+        <item>Bitte auswählen</item>
+        <item>5\'000 km oder weniger</item>
+        <item>bis 10\'000 km</item>
+        <item>bis 20\'000 km</item>
+        <item>bis 30\'000 km</item>
+        <item>bis 40\'000 km</item>
+        <item>50\'000 km oder mehr</item>
+    </string-array>
+    <string-array name="numberdriving">
+        <item>Bitte auswählen</item>
+        <item>täglich</item>
+        <item>jeden zweiten Tag</item>
+        <item>wöchentlich</item>
+        <item>unregelmäßig</item>
+    </string-array>
+    <string-array name="cars">
+        <item>Bitte auswählen</item>
+        <item>Abarth</item>
+        <item>AC</item>
+        <item>Acura</item>
+        <item>Aixam</item>
+        <item>Alfa Romeo</item>
+        <item>ALPINA</item>
+        <item>Artega</item>
+        <item>Asia Motors</item>
+        <item>Aston Martin</item>
+        <item>Audi</item>
+        <item>Austin</item>
+        <item>Austin Healey</item>
+        <item>Bentley</item>
+        <item>BMW</item>
+        <item>Borgward</item>
+        <item>Brilliance</item>
+        <item>Bugatti</item>
+        <item>Buick</item>
+        <item>Cadillac</item>
+        <item>Casalini</item>
+        <item>Caterham</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Citroën</item>
+        <item>Cobra</item>
+        <item>Corvette</item>
+        <item>Dacia</item>
+        <item>Daewoo</item>
+        <item>Daihatsu</item>
+        <item>DeTomaso</item>
+        <item>Dodge</item>
+        <item>Ferrari</item>
+        <item>Fiat</item>
+        <item>Fisker</item>
+        <item>Ford</item>
+        <item>GAC Gonow</item>
+        <item>Gemballa</item>
+        <item>GMC</item>
+        <item>Grecav</item>
+        <item>Hamann</item>
+        <item>Holden</item>
+        <item>Honda</item>
+        <item>Hummer</item>
+        <item>Hyundai</item>
+        <item>Infiniti</item>
+        <item>Isuzu</item>
+        <item>Iveco</item>
+        <item>Jaguar</item>
+        <item>Jeep</item>
+        <item>Kia</item>
+        <item>Königsegg</item>
+        <item>KTM</item>
+        <item>Lada</item>
+        <item>Lamborghini</item>
+        <item>Lancia</item>
+        <item>Land Rover</item>
+        <item>Landwind</item>
+        <item>Lexus</item>
+        <item>Ligier</item>
+        <item>Lincoln</item>
+        <item>Lotus</item>
+        <item>Mahindra</item>
+        <item>Maserati</item>
+        <item>Maybach</item>
+        <item>Mazda</item>
+        <item>McLaren</item>
+        <item>Mercedes-Benz</item>
+        <item>MG</item>
+        <item>Microcar</item>
+        <item>MINI</item>
+        <item>Mitsubishi</item>
+        <item>Morgan</item>
+        <item>Nissan</item>
+        <item>NSU</item>
+        <item>Oldsmobile</item>
+        <item>Opel</item>
+        <item>Pagani</item>
+        <item>Peugeot</item>
+        <item>Piaggio</item>
+        <item>Plymouth</item>
+        <item>Pontiac</item>
+        <item>Porsche</item>
+        <item>Proton</item>
+        <item>Renault</item>
+        <item>Rolls-Royce</item>
+        <item>Rover</item>
+        <item>Ruf</item>
+        <item>Saab</item>
+        <item>Santana</item>
+        <item>Seat</item>
+        <item>Skoda</item>
+        <item>Smart</item>
+        <item>speedART</item>
+        <item>Spyker</item>
+        <item>Ssangyong</item>
+        <item>Subaru</item>
+        <item>Suzuki</item>
+        <item>Talbot</item>
+        <item>Tata</item>
+        <item>TECHART</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Trabant</item>
+        <item>Triumph</item>
+        <item>TVR</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+        <item>Wartburg</item>
+        <item>Westfield</item>
+        <item>Wiesmann</item>
+        <item>Andere</item>
+    </string-array>
+    <string-array name="powerclass">
+        <item>Bitte auswählen</item>
+        <item>50 PS oder weniger</item>
+        <item>51 - 100 PS</item>
+        <item>101 - 150 PS</item>
+        <item>151 - 200 PS</item>
+        <item>201 - 250 PS</item>
+        <item>251 oder mehr</item>
+    </string-array>
+    <string-array name="fueltype">
+        <item>Bitte auswählen</item>
+        <item>Benzin</item>
+        <item>Diesel</item>
+    </string-array>
+    <string-array name="selectDataType">
+        <item>Feedback</item>
+        <item>Tankstopps</item>
+    </string-array>
+    <string name="initialize"><b>Herzlich Willkommen bei myDrive!</b>\n
+\n
+Vielen Dank, dass Sie sich zur Nutzung unserer App entschieden haben und unser Forschungsprojekt unterstützen möchten.\n
+\n
+Bevor Sie die App nutzen können, haben wir jedoch noch ein paar Fragen. Bitte beantworten Sie diese korrekt.\n
+\n
+Diese App erhebt <u>keine</u> personenbezogenen Daten!\n
+\n
+<b>Ihr myDrive Team</b></string>
+    <string name="Impressum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse</string>
+</resources>
